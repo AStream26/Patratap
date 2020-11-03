@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Load the Paper.js library -->
+<script type="text/javascript" src="paper-full.js"></script>
+<link rel="stylesheet" type="text/css" href="canvas.css">
+<!-- Define inlined PaperScript associate it with myCanvas -->
+<script type="text/paperscript" canvas="myCanvas">
+	  
+      
+	
+    for(var i=0;i<1000;i+=50){
+    for(var j=0;j<1000;j+=50){
+    	var circle = new Path.Circle(new Point(i,j),10);
+	circle.fillColor='red';
+
+}
+
+}
+
+   
+
+	
+
+
+</script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>

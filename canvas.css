@@ -1,10 +1,12 @@
 canvas{
 	width:100%;
-	background-color: white;
+	background-color: black;
 
 }
 
 body, html{
-	margin: 0px;
-	height: 100%;
+	background-color: grey;
+}
+h1{
+	color: white;
 }

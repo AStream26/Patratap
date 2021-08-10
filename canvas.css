@@ -1,11 +1,13 @@
 canvas{
 	width:100%;
 	background-color: black;
+	background-attachment: fixed;
 
 }
 
 body, html{
 	background-color: grey;
+	background-attachment: fixed;
 }
 h1{
 	color: white;
